@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto", sans-serif, Verdana, Helvetica, Courier;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg {
+  background: url(assets/earth-3866609.jpg);
+  background-position: left top;
+}
+
+.bg-img {
+  background-color: #33334a;
+  background-blend-mode: soft-light;
+  /* I like the backdrop-filter blur, but for some reason it locks the modal from scrolling */
+  /* backdrop-filter: blur(3px); */
+
+  /* background-color: #70abaf; */
+  /* background-color: #70abaf; */
+  /* background-color: #32292f; */
+  /* background-color: #a8a7a8; */
+  /* background-color: #363636; */
+  /* background-color: #122851; */
+  /* background-color: #2d142c; */
+  /* background-color: #000000; */
+  /* background-blend-mode: color-dodge; */
+  /* background-blend-mode: hue; */
+  /* background-blend-mode: saturation; */
+  /* background-blend-mode: hard-light; */
+  /* background-blend-mode: overlay; */
+  /* background-blend-mode: multiply; */
+  /* background-blend-mode: luminosity; */
+  /* backdrop-filter: blur(2px); */
+  /* backdrop-filter: blur(4px); */
+  /* backdrop-filter: blur(6px); */
+  /* backdrop-filter: sepia(2px); */
+  /* backdrop-filter: opacity(.5); */
+  /* backdrop-filter: opacity(.4); */
+  /* backdrop-filter: contrast(.4); */
+}
+
+th {
+  background-color: #057289;
+  font-size: 1.4rem;
+  /* text-shadow: 1px 1px 2px #0f0e17, 2px 2px 3px #0f0e17; */
+}
+
+#override-button-color {
+  background-color: #282f5f;
+  border-color: #282f5f;
+}
+
+#override-button-color:hover {
+  background-color: #333c7a;
+  border-color: #333c7a;
+}
+
+td {
+  background-color: #122851;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px #0f0e17, 2px 2px 3px #0f0e17;
+}
+
+/* Moved to navbar */
+#title-h2 {
+  color: #f7f7f7;
+  font-size: 1.6rem;
+  /* text-shadow: 1px 1px 2px #0f0e17, 2px 2px 3px #0f0e17; */
+}
+
+h4 {
+  text-shadow: 1px 1px 2px #0f0e17, 2px 2px 3px #0f0e17;
+}
+
+h6 {
+  color: #f0ad4e;
+  font-size: 1.3rem;
+}
+
+#userSearch {
+  background-color: #1c2e4c;
+  color: white;
+  border-color: #8cd3ff;
+  border-width: 1.5px;
+  font-weight: bold;
+}
+
+#userSearch:focus {
+  background-color: #0f0e17;
+  border-color: #faee9e;
+  transition: 0.1s;
+}
+
+#countryTable td {
+  color: white;
+}
+
+#modal-close-top {
+  /* color: #faee9e; */
+  text-shadow: none;
+  font-size: 16px;
+}
+
+.modal-content {
+  /* background-color: #17232a; */
+  background-color: #0f0e17;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-footer,
+.modal-header {
+  border: none;
+}
+
+.border-div {
+  height: 0;
+  width: 95%;
+  border-bottom: 1.5px solid #0da2ff;
+  margin: 0 auto;
+}
+
+.end-of-table {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px #0f0e17, 2px 2px 3px #0f0e17;
+}
+
+/* Full height */
+/* height: 100%; */
+/* The image used */
+/* background-image: url("assets/pexels-pixabay-41949.jpg"); */
+/* Center and scale the image nicely */
+/* background-position: center;
+  background-repeat: no repeat;
+  background-size: auto; */
+/*
+.bg-modal {
+    background-color: 
+  }
+  */

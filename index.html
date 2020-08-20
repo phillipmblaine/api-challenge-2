@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Holidays 2020</title>
+    <!-- BOOTSTRAP LINK -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE LINK MONTESRRAT, ROBOTO -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MY LINK -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="text-light bg bg-img">
+
+    <!-- USER SELECTS COUNTRY, by click/scroll and/or by typing in the search bar, searches as you type -->
+    <!-- As a heading -->
+<nav class="navbar navbar-dark bg-info justify-content-center">
+  <h2 id="title-h2" class="navbar-brand mb-0 font-weight-bold">Learn about Country Holidays in 2020</h2>
+</nav>
+    <div class="container mt-3">
+      
+      <!-- <h2 id="title-h2" class="text-center">Learn about Country Holidays in 2020!</h2> -->
+      
+      <h4>Select a country:</h4>
+
+      <!-- Modal -->
+      <div
+        id="holidaysModal"
+        class="modal fade text-primary bg-modal"
+        role="dialog"
+      >
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <button
+              type="button"
+              id="modal-close-top"
+              class="close text-white mt-3"
+              data-dismiss="modal"
+            >
+              Close &times;
+            </button>
+            <div class="modal-header text-center justify-content-center">
+              <!-- <h4 class="modal-title">Modal Header</h4> -->
+              <!-- add the country name here -->
+              <h2>Holiday List 2020</h2>
+            </div>
+            <div class="border-div"></div>
+            <div class="modal-body">
+              <!-- <p>Some text in the modal.</p> -->
+              <!-- add the info to the modal body: name/date first, then the description -->
+            </div>
+            <div class="border-div"></div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default bg-success text-light rounded"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <input
+        class="form-control rounded"
+        id="userSearch"
+        type="text"
+        placeholder="Type in a country name ..."
+      />
+      <br />
+      <table class="table table-bordered">
+        <thead>
+          <tr class="text-center text-light">
+            <th>Country Name</th>
+            <th>Country ID</th>
+            <th>Number of Holidays</th>
+            <th>Holiday Details</th>
+          </tr>
+        </thead>
+        <tbody id="countryTable">
+          <!-- Country entries from fetchCountriesApi populate here -->
+        </tbody>
+      </table>
+      <p class="text-warning text-center font-weight-bold end-of-table">You have reached the end of the table.</div>
+    </dp>
+    <!-- DISPLAY USER'S REQUESTED DATA -->
+    <!-- FOOTER -->
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MY SCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
